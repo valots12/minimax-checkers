@@ -1,4 +1,4 @@
-# One player checkers using Minimax algorithm and PyGame
+# 1-player checkers using Minimax algorithm and PyGame
 **Personal project**
 
 The purpose of the project is to allow the user to play checkers against an opponent who follows the Minimax algorithm, optimized using Alpha-beta pruning, by looking 5 moves ahead (or even more). The player must select a legal move, which means that if possible he must jump over the opponent's checker and eat it. To avoid infinite games, the result is a tie if there is no change in the number of checkers on the board and no checker manages to become a king for 50 consecutive moves. It is possible to look at the evaluation of the position in real-time made by the algorithm in the bar below the board.
